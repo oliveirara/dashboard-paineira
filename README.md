@@ -13,7 +13,7 @@ To test this repository*:
 1. Install `git` on Windows or Linux (if you have Linux, you probably already have it)!
 1. Clone the repository
     ```bash
-    git clone 
+    git clone https://github.com/oliveirara/dashboard-paineira.git
     cd dashbord-paineira
     ```
 1. Activate your environment (e.g., `mamba activate <my environment>`)
