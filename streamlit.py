@@ -51,7 +51,7 @@ with st.sidebar:
         file_type = str(st.text_input("Which pattern?", "RAMP"))
         st.write(f"Only plot files with {file_type} on name.")
 
-    step = int(st.text_input("Step used to plot all spectra:", 1))
+    step = int(st.text_input("Step used to plot all spectra:", 5))
 
     plot_title = str(st.text_input("Plot title:", "LaSrTiNiO"))
 

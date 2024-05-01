@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dashboard-paineira"
+version = "0.1.0"
+description = ""
+authors = ["Renan Alves de Oliveira <fisica.renan@mail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+streamlit = "^1.33.0"
+plotly = "^5.22.0"
+plotly-resampler = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
