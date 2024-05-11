@@ -11,7 +11,7 @@ To test this repository*:
 1. Activate your environment (e.g., `mamba activate <my environment>` or `poetry shell` (if you're using Windows))
 1. Install the following packages:
     ```bash
-    pip install .
+    pip install -r requirements.txt
     ```
     or
     ```bash
